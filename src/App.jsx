@@ -15,8 +15,8 @@ function App() {
   // task 2 ************************
   const handleDelete = (id) => {
     // console.log(id);  
-    const cleanProducts = [...products].filter(elem => elem._id !== id);
-    setProducts(cleanProducts);
+    const deleteProducts = [...products].filter(elem => elem._id !== id);
+    setProducts(deleteProducts);
   }
 
   // task 3 *************************
